@@ -66,12 +66,14 @@ export default {
 
   data: () => ({
     drawer : false,
-     items: [
-          { title: 'Dashboard', icon: 'mdi-view-dashboard', to: '/' },
-          { title: 'Grid System', icon: 'mdi-image', to: '/grid-system' },
-          { title: 'Grid List Page', icon: 'mdi-image', to: '/grid-list-page' },
-        ],
-        right: null,
+    items: [
+      { title: 'Dashboard', icon: 'mdi-view-dashboard', to: '/' },
+      { title: 'Grid System', icon: 'mdi-image', to: '/grid-system' },
+      { title: 'Grid List Page', icon: 'mdi-image', to: '/grid-list-page' },
+      { title: 'Breakpoints', icon: 'mdi-image', to: '/breakpoints'},
+      { title: 'Typography', icon: 'mdi-image', to: '/typography'},
+    ],
+    right: null,
   }),
 };
 </script>
